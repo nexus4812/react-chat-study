@@ -1,0 +1,22 @@
+.chat {
+  &__message-list {
+    height: 80%;
+  }
+
+  &__input {
+    height: 20%;
+    position: fixed;
+    bottom: 0;
+  }
+
+  &__message {
+    width: 100%;
+    padding: 8px 16px;
+    border-bottom: #ebeff4 solid 1px;
+
+    &:hover {
+      box-shadow: 0 0 0 1px rgb(202, 218, 247);
+      background: rgb(255, 255, 255);
+    }
+  }
+}

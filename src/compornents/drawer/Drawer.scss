@@ -1,0 +1,13 @@
+.drawer {
+ &__header {
+  min-height: 64px;
+ }
+
+ &.--selected {
+  background-color: rgba(204, 223, 245, 0.5);
+  transition: background 0.2s linear 0s;
+  border: 1px solid rgb(46, 81, 144);
+  border-radius: 3px;
+  fill-opacity: 0;
+ }
+}
