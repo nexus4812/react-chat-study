@@ -1,33 +1,3 @@
-# 簡易的なチャットアプリ（フロントのみ）
-
-## 目的
-reactの学習 
-
-## 技術仕様
-```json
-"node-sass": "^4.14.1",
-"react": "^16.13.1",
-"@material-ui/core": "^4.11.0",
-```
-reate React Appで生成
-詳しくはpackage.jsonを参照
-
-## 仕様
-チャット部屋の切替ができる
-メッセージを送信できる
-Ajaxなどでメッセージは送信しない
-
-
-## やってみた感想
-親から子へ情報の受け渡しが非常に面倒
-また違うノードに値を渡す時は毎回親を挟む必要があり複雑になりやすい気がする
-
-簡単なSPAだとReact単体で実装が可能だと思うが複雑になるReduxなどでStateを一元管理した方が良さそう
-https://techracho.bpsinc.jp/hachi8833/2018_03_13/53183
-
-次はRedux使ってみる？？？
-
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
